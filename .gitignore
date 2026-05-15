@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / Windows cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# Large Model weights & training outputs
+*.pt
+*.onnx
+runs/
+val/
+
+# Datasets and Downloaded Content
+Indian-Coin-1/
+datasets/
+*.zip
+*.tar.gz
+*.mp4
+
+# Private Configurations / API Keys
+.env
